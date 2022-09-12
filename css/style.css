@@ -4,3 +4,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+
+img {
+    height: 300px;
+}
