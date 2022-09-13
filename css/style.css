@@ -114,7 +114,6 @@ a {
     justify-content: center;
     align-items: flex-end;
     padding: 100px 25%;
-    border: 1px solid red;
 }
 
 .quote {
@@ -134,17 +133,33 @@ a {
 }
 
 .sign-up-section {
-    height: 150px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    min-height: 100px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
+    margin: 80px 20%;
+    padding: 20px 20px;
+    border-radius: 10px;
+    gap: 10px;
+}
 
-    margin: 0px 200px;
-    padding: 100px 250px;
-    border: 1px solid red;
+/*.sign-up-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}*/
+
+.sign-up-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .sign-up-button {
+    border: 2px solid #F9FAF8;
     height: 30px;
     width: 60px;
 }
