@@ -108,17 +108,29 @@ a {
 }
 
 .quote-section {
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: 0px 200px;
-    padding: 100px 250px;
+    align-items: flex-end;
+    padding: 100px 25%;
     border: 1px solid red;
 }
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    min-width: 500px;
+}
+
 .quote-section .quote-person {
-    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: end;
+    color: #1F2937;
+    min-width: 500px;
 }
 
 .sign-up-section {
